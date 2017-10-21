@@ -1,0 +1,39 @@
+var uno = {
+	"title": "¿Cuál es la diferencia entre una clase y un objeto?",
+	"respuesta": "Una clase es el molde( class Lego ) y el objeto(tambien llamado instancia)(iniciado asi: Lego.new) es el resultado de ese molde"
+}
+
+var dos = {
+	"title": "¿Qué hace el operador new?",
+	"respuesta": "Crea una nueva instancia de la clase con la que parte el metodo (ClassNew.new) en este caso ClassNew"
+}
+
+var tres = {
+	"title": "¿Qué significa instanciar?",
+	"respuesta": "Instanciar significa crear una instancia de una clase"
+}
+
+var cuatro = {
+	"title": "¿Para qué sirven los getters?",
+	"respuesta": "Para acceder a las variables de instancia (No se pueden acceder sin un getter)"
+}
+
+var cinco = {
+	"title": "¿Qué hace def x=(x)?",
+	"respuesta": "crea un setter para la variable x(si el resto del codigo es: @x = x)"
+}
+
+var seis = {
+	"title": "Qué hace attr_reader :x?",
+	"respuesta": "crea un getter (.x) de @x "
+}
+
+var siete = {
+	"title": "¿Si existe la clase Monster, que devuelve Monster.class?",
+	"respuesta": "Class, porque Monster es una clase, y la clase de clase es Class"
+}
+
+var ocho = {
+	"title": "¿Si a = Monster.new, que devuelve a.class?",
+	"respuesta": "Monster, porque a es una instancia de Monster, por eso esa es su clase"
+}
